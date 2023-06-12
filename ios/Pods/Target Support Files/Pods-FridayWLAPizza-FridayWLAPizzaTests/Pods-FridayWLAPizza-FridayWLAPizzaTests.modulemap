@@ -1,0 +1,6 @@
+module Pods_FridayWLAPizza_FridayWLAPizzaTests {
+  umbrella header "Pods-FridayWLAPizza-FridayWLAPizzaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

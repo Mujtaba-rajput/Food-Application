@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/mac1/projects/Friday-WLA-ReactNativeApp-PizzaTheme-V2/android/app"
+    name=":app"
+    type="APP"
+    maven="FridayWLAPizza:app:"
+    gradle="7.3.1"
+    buildFolder="build"
+    bootClassPath="/Users/mac1/Library/Android/sdk/platforms/android-31/android.jar:/Users/mac1/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

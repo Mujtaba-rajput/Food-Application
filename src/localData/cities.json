@@ -1,0 +1,18 @@
+{
+    "north" : [
+        "Naran",
+        "Islamabad",
+        "Peshawar",
+        "Abbottabad",
+        "Jehlum",
+        "Rawalpindi"
+      ],
+    "south": [
+        "Lahore",
+        "Rahim Yar Khan",
+        "Multan",
+        "Bhawalpur",
+        "Faisalabad",
+        "Sahiwal"
+      ]
+}

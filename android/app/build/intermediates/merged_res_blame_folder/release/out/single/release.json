@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_tomato.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_tomato.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_bbq.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_bbq.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_honey.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_honey.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_mayo.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_mayo.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_google.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_google.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_chilli.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_chilli.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_shop.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_shop.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_onion.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_onion.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_man23.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_man23.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_background.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_background.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_banner.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_banner.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_sub.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_sub.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_badge.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_badge.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_delivery.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_delivery.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_img.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_img.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_pickles.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_pickles.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.fridaywlapizza.app-main-36:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_southwest.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_southwest.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_pizzasplash.gif.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_pizzasplash.gif"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_pickup.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_pickup.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_lettuce.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_lettuce.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_wallet43.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_wallet43.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_jalapeno.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_jalapeno.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_map.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_map.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_visa.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_visa.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_pizza.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_pizza.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_olives.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_olives.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.fridaywlapizza.app-main-36:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_mustard.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_mustard.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_thousand.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_thousand.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_oliveoil.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_oliveoil.png"
+    },
+    {
+        "merged": "com.fridaywlapizza.app-merged_res-35:/drawable-mdpi_src_assets_images_militarymedal.png.flat",
+        "source": "com.fridaywlapizza.app-react-30:/drawable-mdpi/src_assets_images_militarymedal.png"
+    }
+]

@@ -1,0 +1,694 @@
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
+/Users/mac1/.rvm/rubies/ruby-2.7.6/bin/ruby extconf.rb
+checking for ffi_prep_closure_loc() in -lffi... yes
+checking for ffi_prep_cif_var()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for whether -pthread is accepted as LDFLAGS... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230322-27433-60991q sitelibdir\=./.gem.20230322-27433-60991q clean
+
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230322-27433-60991q sitelibdir\=./.gem.20230322-27433-60991q
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.bundle
+ld: warning: ignoring file /Users/mac1/.rvm/rubies/ruby-2.7.6/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_rb_ary_detransient", referenced from:
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_put_array_of_uint16 in AbstractMemory.o
+      _memory_put_array_of_int32 in AbstractMemory.o
+      _memory_put_array_of_uint32 in AbstractMemory.o
+      _memory_put_array_of_int64 in AbstractMemory.o
+      ...
+  "_rb_ary_dup", referenced from:
+      _fntype_param_types in FunctionInfo.o
+      _struct_layout_fields in StructLayout.o
+      _struct_layout_members in StructLayout.o
+      _struct_layout_to_a in StructLayout.o
+  "_rb_ary_entry", referenced from:
+      _invoke_callback in Function.o
+      _fntype_initialize in FunctionInfo.o
+      _struct_layout_initialize in StructLayout.o
+      _variadic_initialize in Variadic.o
+      _variadic_invoke in Variadic.o
+  "_rb_ary_new", referenced from:
+      _struct_initialize in Struct.o
+  "_rb_ary_new_capa", referenced from:
+      _memory_get_array_of_int8 in AbstractMemory.o
+      _memory_get_array_of_uint8 in AbstractMemory.o
+      _memory_get_array_of_int16 in AbstractMemory.o
+      _memory_get_array_of_uint16 in AbstractMemory.o
+      _memory_get_array_of_int32 in AbstractMemory.o
+      _memory_get_array_of_uint32 in AbstractMemory.o
+      _memory_get_array_of_int64 in AbstractMemory.o
+      ...
+  "_rb_ary_new_from_values", referenced from:
+      _struct_initialize in Struct.o
+  "_rb_ary_push", referenced from:
+      _memory_get_array_of_int8 in AbstractMemory.o
+      _memory_get_array_of_uint8 in AbstractMemory.o
+      _memory_get_array_of_int16 in AbstractMemory.o
+      _memory_get_array_of_uint16 in AbstractMemory.o
+      _memory_get_array_of_int32 in AbstractMemory.o
+      _memory_get_array_of_uint32 in AbstractMemory.o
+      _memory_get_array_of_int64 in AbstractMemory.o
+      ...
+  "_rb_block_given_p", referenced from:
+      _buffer_initialize in Buffer.o
+      _rbffi_SetupCallParams in Call.o
+      _function_initialize in Function.o
+      _memptr_initialize in MemoryPointer.o
+  "_rb_block_proc", referenced from:
+      _rbffi_SetupCallParams in Call.o
+      _function_initialize in Function.o
+  "_rb_cFalseClass", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_cFloat", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_cInteger", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_cModule", referenced from:
+      _function_attach in Function.o
+  "_rb_cNilClass", referenced from:
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_cObject", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_longdouble_new in LongDouble.o
+      _bigdecimal_load in LongDouble.o
+      _rbffi_num2longdouble in LongDouble.o
+      _rbffi_Struct_Init in Struct.o
+      _rbffi_StructLayout_Init in StructLayout.o
+      ...
+  "_rb_cProc", referenced from:
+      _function_init in Function.o
+      _invoke_callback in Function.o
+      _function_field_put in StructLayout.o
+  "_rb_cString", referenced from:
+      _array_field_put in StructLayout.o
+  "_rb_cSymbol", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_cTrueClass", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_initialize in Struct.o
+      _struct_set_pointer in Struct.o
+      _struct_validate in Struct.o
+      _rbffi_Type_Init in Type.o
+  "_rb_call_super", referenced from:
+      _inline_array_to_s in Struct.o
+  "_rb_check_type", referenced from:
+      _rbffi_AbstractMemory_Cast in AbstractMemory.o
+      _memory_put_int8 in AbstractMemory.o
+      _memory_get_int8 in AbstractMemory.o
+      _memory_put_uint8 in AbstractMemory.o
+      _memory_get_uint8 in AbstractMemory.o
+      _memory_write_int8 in AbstractMemory.o
+      _memory_read_int8 in AbstractMemory.o
+      ...
+  "_rb_class2name", referenced from:
+      _struct_set_layout in Struct.o
+      _struct_class_layout in Struct.o
+  "_rb_class_new_instance", referenced from:
+      _function_initialize in Function.o
+      _memptr_s_from_string in MemoryPointer.o
+      _rbffi_Pointer_Init in Pointer.o
+      _inline_array_aref in Struct.o
+      _array_field_get in StructLayout.o
+      _rbffi_NativeValue_ToRuby in Types.o
+  "_rb_const_defined", referenced from:
+      _rbffi_num2longdouble in LongDouble.o
+  "_rb_const_get", referenced from:
+      _bigdecimal_load in LongDouble.o
+      _rbffi_num2longdouble in LongDouble.o
+      _rbffi_Type_Init in Type.o
+      _variadic_invoke in Variadic.o
+  "_rb_const_set", referenced from:
+      _rbffi_Type_Init in Type.o
+  "_rb_cv_set", referenced from:
+      _function_attach in Function.o
+  "_rb_data_object_zalloc", referenced from:
+      _memory_allocate in AbstractMemory.o
+      _array_type_s_allocate in ArrayType.o
+      _buffer_allocate in Buffer.o
+      _buffer_alloc_inout in Buffer.o
+      _buffer_order in Buffer.o
+      _buffer_plus in Buffer.o
+      _buffer_slice in Buffer.o
+      ...
+  "_rb_define_alias", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_Pointer_Init in Pointer.o
+      _rbffi_Struct_Init in Struct.o
+  "_rb_define_alloc_func", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_ArrayType_Init in ArrayType.o
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_Function_Init in Function.o
+      _rbffi_FunctionInfo_Init in FunctionInfo.o
+      _rbffi_MappedType_Init in MappedType.o
+      ...
+  "_rb_define_attr", referenced from:
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+  "_rb_define_class_under", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_ArrayType_Init in ArrayType.o
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_Function_Init in Function.o
+      _rbffi_FunctionInfo_Init in FunctionInfo.o
+      _rbffi_MappedType_Init in MappedType.o
+      ...
+  "_rb_define_const", referenced from:
+      _rbffi_ArrayType_Init in ArrayType.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_FunctionInfo_Init in FunctionInfo.o
+      _rbffi_Platform_Init in Platform.o
+      _rbffi_Pointer_Init in Pointer.o
+      _rbffi_StructByValue_Init in StructByValue.o
+      _rbffi_Type_Init in Type.o
+      ...
+  "_rb_define_method", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_ArrayType_Init in ArrayType.o
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_Function_Init in Function.o
+      _function_attach in Function.o
+      _rbffi_FunctionInfo_Init in FunctionInfo.o
+      ...
+  "_rb_define_module", referenced from:
+      _Init_ffi_c in ffi.o
+  "_rb_define_module_function", referenced from:
+      _rbffi_LastError_Init in LastError.o
+  "_rb_define_module_under", referenced from:
+      _rbffi_LastError_Init in LastError.o
+      _rbffi_Platform_Init in Platform.o
+      _rbffi_Type_Init in Type.o
+  "_rb_define_private_method", referenced from:
+      _rbffi_Struct_Init in Struct.o
+  "_rb_define_singleton_method", referenced from:
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _function_attach in Function.o
+      _rbffi_MemoryPointer_Init in MemoryPointer.o
+  "_rb_eArgError", referenced from:
+      _rbffi_AbstractMemory_Cast in AbstractMemory.o
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_get_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      _memory_get_array_of_uint8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_get_array_of_int16 in AbstractMemory.o
+      ...
+  "_rb_eException", referenced from:
+      _rbffi_CallFunction in Call.o
+      _callback_invoke in Function.o
+      _callback_with_gvl in Function.o
+      _async_cb_call in Function.o
+      _variadic_invoke in Variadic.o
+  "_rb_eFatal", referenced from:
+      _rbffi_MethodHandle_Init in MethodHandle.o
+  "_rb_eIndexError", referenced from:
+      _memory_get_int8 in AbstractMemory.o
+      _memory_put_uint8 in AbstractMemory.o
+      _memory_get_uint8 in AbstractMemory.o
+      _memory_read_int8 in AbstractMemory.o
+      _memory_write_uint8 in AbstractMemory.o
+      _memory_read_uint8 in AbstractMemory.o
+      _memory_put_array_of_int8 in AbstractMemory.o
+      ...
+  "_rb_eLoadError", referenced from:
+      _library_initialize in DynamicLibrary.o
+  "_rb_eNoMemError", referenced from:
+      _function_init in Function.o
+      _rbffi_MethodHandle_Alloc in MethodHandle.o
+  "_rb_eNoMethodError", referenced from:
+      _mapped_initialize in MappedType.o
+  "_rb_eNotImpError", referenced from:
+      _array_field_put in StructLayout.o
+  "_rb_eRangeError", referenced from:
+      _memory_put_bytes in AbstractMemory.o
+  "_rb_eRuntimeError", referenced from:
+      _rbffi_AbstractMemory_Error in AbstractMemory.o
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_Closure_Alloc in ClosurePool.o
+      _symbol_initialize_copy in DynamicLibrary.o
+      _function_initialize_copy in Function.o
+      _function_attach in Function.o
+      _function_release in Function.o
+      ...
+  "_rb_eTypeError", referenced from:
+      _rbffi_SetupCallParams in Call.o
+      _function_init in Function.o
+      _fntype_initialize in FunctionInfo.o
+      _mapped_initialize in MappedType.o
+      _ptr_initialize in Pointer.o
+      _struct_set_pointer in Struct.o
+      _struct_set_layout in Struct.o
+      ...
+  "_rb_empty_keyword_given_p", referenced from:
+      _memory_get_string in AbstractMemory.o
+      _memory_put_bytes in AbstractMemory.o
+      _memory_get_array_of_string in AbstractMemory.o
+      _buffer_initialize in Buffer.o
+      _buffer_order in Buffer.o
+      _function_initialize in Function.o
+      _fntype_initialize in FunctionInfo.o
+      ...
+  "_rb_ensure", referenced from:
+      _buffer_initialize in Buffer.o
+      _memptr_initialize in MemoryPointer.o
+  "_rb_error_arity", referenced from:
+      _memory_get_string in AbstractMemory.o
+      _memory_put_bytes in AbstractMemory.o
+      _memory_get_array_of_string in AbstractMemory.o
+      _buffer_initialize in Buffer.o
+      _buffer_order in Buffer.o
+      _function_initialize in Function.o
+      _fntype_initialize in FunctionInfo.o
+      ...
+  "_rb_exc_new_str", referenced from:
+      _memory_get in AbstractMemory.o
+      _memory_put in AbstractMemory.o
+  "_rb_exc_raise", referenced from:
+      _memory_get in AbstractMemory.o
+      _memory_put in AbstractMemory.o
+      _rbffi_CallFunction in Call.o
+      _variadic_invoke in Variadic.o
+  "_rb_fix2int", referenced from:
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_put_array_of_int32 in AbstractMemory.o
+      _memory_get_array_of_string in AbstractMemory.o
+      _memory_copy_from in AbstractMemory.o
+      _memory_op_put_int8 in AbstractMemory.o
+      _memory_op_put_int16 in AbstractMemory.o
+      ...
+  "_rb_float_new", referenced from:
+      _memory_get_float32 in AbstractMemory.o
+      _memory_read_float32 in AbstractMemory.o
+      _memory_get_array_of_float32 in AbstractMemory.o
+      _memory_get_float64 in AbstractMemory.o
+      _memory_read_float64 in AbstractMemory.o
+      _memory_get_array_of_float64 in AbstractMemory.o
+      _memory_op_get_float32 in AbstractMemory.o
+      ...
+  "_rb_funcallv", referenced from:
+      _memory_aref in AbstractMemory.o
+      _get_pointer_value in AbstractMemory.o
+      _rbffi_SetupCallParams in Call.o
+      _getPointer in Call.o
+      _function_init in Function.o
+      _async_cb_event in Function.o
+      _invoke_callback in Function.o
+      ...
+  "_rb_gc_mark", referenced from:
+      _array_type_mark in ArrayType.o
+      _buffer_mark in Buffer.o
+      _symbol_mark in DynamicLibrary.o
+      _function_mark in Function.o
+      _fntype_mark in FunctionInfo.o
+      _mapped_mark in MappedType.o
+      _ptr_mark in Pointer.o
+      ...
+  "_rb_gc_mark_locations", referenced from:
+      _fntype_mark in FunctionInfo.o
+      _struct_mark in Struct.o
+  "_rb_gc_writebarrier_unprotect", referenced from:
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_put_array_of_uint16 in AbstractMemory.o
+      _memory_put_array_of_int32 in AbstractMemory.o
+      _memory_put_array_of_uint32 in AbstractMemory.o
+      _memory_put_array_of_int64 in AbstractMemory.o
+      ...
+  "_rb_global_variable", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _rbffi_ArrayType_Init in ArrayType.o
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_Function_Init in Function.o
+      _rbffi_FunctionInfo_Init in FunctionInfo.o
+      _rbffi_MappedType_Init in MappedType.o
+      ...
+  "_rb_hash_aref", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _fntype_initialize in FunctionInfo.o
+      _struct_aref in Struct.o
+      _struct_aset in Struct.o
+      _struct_field in Struct.o
+      _struct_layout_aref in StructLayout.o
+      _variadic_initialize in Variadic.o
+      ...
+  "_rb_hash_aset", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_layout_initialize in StructLayout.o
+  "_rb_hash_lookup", referenced from:
+      _rbffi_type_size in Type.o
+      _rbffi_Type_Lookup in Type.o
+  "_rb_hash_new", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_layout_initialize in StructLayout.o
+      _rbffi_Type_Init in Type.o
+  "_rb_id2sym", referenced from:
+      _buffer_order in Buffer.o
+      _fntype_initialize in FunctionInfo.o
+      _ptr_order in Pointer.o
+      _variadic_initialize in Variadic.o
+  "_rb_include_module", referenced from:
+      _rbffi_Struct_Init in Struct.o
+  "_rb_int2big", referenced from:
+      _memory_get_long in AbstractMemory.o
+      _memory_read_long in AbstractMemory.o
+      _memory_get_array_of_long in AbstractMemory.o
+      _memory_size in AbstractMemory.o
+      _memory_op_get_long in AbstractMemory.o
+      _invoke_callback in Function.o
+      _memptr_s_from_string in MemoryPointer.o
+      ...
+  "_rb_intern2", referenced from:
+      _rbffi_AbstractMemory_Init in AbstractMemory.o
+      _buffer_order in Buffer.o
+      _rbffi_Call_Init in Call.o
+      _function_init in Function.o
+      _rbffi_Function_Init in Function.o
+      _async_cb_event in Function.o
+      _fntype_initialize in FunctionInfo.o
+      ...
+  "_rb_iv_get", referenced from:
+      _variadic_invoke in Variadic.o
+  "_rb_iv_set", referenced from:
+      _library_initialize in DynamicLibrary.o
+      _variadic_initialize in Variadic.o
+  "_rb_ivar_defined", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_class_layout in Struct.o
+  "_rb_ivar_get", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_class_layout in Struct.o
+      _sbv_initialize in StructByValue.o
+  "_rb_ivar_set", referenced from:
+      _rbffi_Function_ForProc in Function.o
+      _struct_set_pointer in Struct.o
+      _struct_set_layout in Struct.o
+  "_rb_keyword_given_p", referenced from:
+      _memory_get_string in AbstractMemory.o
+      _memory_put_bytes in AbstractMemory.o
+      _memory_get_array_of_string in AbstractMemory.o
+      _buffer_initialize in Buffer.o
+      _buffer_order in Buffer.o
+      _function_initialize in Function.o
+      _fntype_initialize in FunctionInfo.o
+      ...
+  "_rb_ll2inum", referenced from:
+      _memory_get_int64 in AbstractMemory.o
+      _memory_read_int64 in AbstractMemory.o
+      _memory_get_array_of_int64 in AbstractMemory.o
+      _memory_op_get_int64 in AbstractMemory.o
+      _invoke_callback in Function.o
+      _rbffi_NativeValue_ToRuby in Types.o
+  "_rb_mEnumerable", referenced from:
+      _rbffi_Struct_Init in Struct.o
+  "_rb_mKernel", referenced from:
+      _rbffi_longdouble_new in LongDouble.o
+  "_rb_num2dbl", referenced from:
+      _memory_put_float32 in AbstractMemory.o
+      _memory_write_float32 in AbstractMemory.o
+      _memory_put_array_of_float32 in AbstractMemory.o
+      _memory_put_float64 in AbstractMemory.o
+      _memory_write_float64 in AbstractMemory.o
+      _memory_put_array_of_float64 in AbstractMemory.o
+      _memory_op_put_float32 in AbstractMemory.o
+      ...
+  "_rb_num2int", referenced from:
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_put_array_of_int32 in AbstractMemory.o
+      _memory_get_array_of_string in AbstractMemory.o
+      _memory_copy_from in AbstractMemory.o
+      _memory_op_put_int8 in AbstractMemory.o
+      _memory_op_put_int16 in AbstractMemory.o
+      ...
+  "_rb_num2ll", referenced from:
+      _memory_put_array_of_int64 in AbstractMemory.o
+      _memory_op_put_int64 in AbstractMemory.o
+      _rbffi_SetupCallParams in Call.o
+      _invoke_callback in Function.o
+      _ptr_initialize in Pointer.o
+  "_rb_num2long", referenced from:
+      _memory_put_int8 in AbstractMemory.o
+      _memory_get_int8 in AbstractMemory.o
+      _memory_put_uint8 in AbstractMemory.o
+      _memory_get_uint8 in AbstractMemory.o
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_get_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      ...
+  "_rb_num2uint", referenced from:
+      _memory_put_uint8 in AbstractMemory.o
+      _memory_write_uint8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      _memory_write_uint16 in AbstractMemory.o
+      _memory_put_array_of_uint16 in AbstractMemory.o
+      _memory_write_uint32 in AbstractMemory.o
+      _memory_put_array_of_uint32 in AbstractMemory.o
+      ...
+  "_rb_num2ull", referenced from:
+      _memory_write_uint64 in AbstractMemory.o
+      _memory_put_array_of_uint64 in AbstractMemory.o
+      _memory_op_put_uint64 in AbstractMemory.o
+      _get_pointer_value in AbstractMemory.o
+      _rbffi_SetupCallParams in Call.o
+      _invoke_callback in Function.o
+  "_rb_num2ulong", referenced from:
+      _memory_put_array_of_ulong in AbstractMemory.o
+      _memory_aref in AbstractMemory.o
+      _memory_op_put_ulong in AbstractMemory.o
+      _rbffi_SetupCallParams in Call.o
+      _invoke_callback in Function.o
+  "_rb_obj_classname", referenced from:
+      _function_init in Function.o
+      _ptr_inspect in Pointer.o
+      _struct_set_pointer in Struct.o
+      _struct_set_layout in Struct.o
+      _inline_array_aref in Struct.o
+      _inline_array_aset in Struct.o
+      _struct_field_initialize in StructLayout.o
+      ...
+  "_rb_obj_dup", referenced from:
+      _struct_order in Struct.o
+  "_rb_obj_is_instance_of", referenced from:
+      _sbv_initialize in StructByValue.o
+      _array_field_put in StructLayout.o
+  "_rb_obj_is_kind_of", referenced from:
+      _rbffi_AbstractMemory_Cast in AbstractMemory.o
+      _memory_put_array_of_int8 in AbstractMemory.o
+      _memory_get_array_of_int8 in AbstractMemory.o
+      _memory_put_array_of_uint8 in AbstractMemory.o
+      _memory_get_array_of_uint8 in AbstractMemory.o
+      _memory_put_array_of_int16 in AbstractMemory.o
+      _memory_get_array_of_int16 in AbstractMemory.o
+      ...
+  "_rb_raise", referenced from:
+      _rbffi_AbstractMemory_Cast in AbstractMemory.o
+      _rbffi_AbstractMemory_Error in AbstractMemory.o
+      _memory_get_int8 in AbstractMemory.o
+      _memory_put_uint8 in AbstractMemory.o
+      _memory_get_uint8 in AbstractMemory.o
+      _memory_read_int8 in AbstractMemory.o
+      _memory_write_uint8 in AbstractMemory.o
+      ...
+  "_rb_require", referenced from:
+      _bigdecimal_load in LongDouble.o
+  "_rb_rescue", referenced from:
+      _rbffi_longdouble_new in LongDouble.o
+  "_rb_rescue2", referenced from:
+      _rbffi_CallFunction in Call.o
+      _callback_invoke in Function.o
+      _callback_with_gvl in Function.o
+      _async_cb_call in Function.o
+      _variadic_invoke in Variadic.o
+  "_rb_respond_to", referenced from:
+      _get_pointer_value in AbstractMemory.o
+      _getPointer in Call.o
+      _function_init in Function.o
+      _invoke_callback in Function.o
+      _mapped_initialize in MappedType.o
+      _struct_field_initialize in StructLayout.o
+      _function_field_put in StructLayout.o
+      ...
+  "_rb_singleton_class", referenced from:
+      _rbffi_Buffer_Init in Buffer.o
+      _rbffi_Struct_Init in Struct.o
+  "_rb_sprintf", referenced from:
+      _memory_get in AbstractMemory.o
+      _memory_put in AbstractMemory.o
+  "_rb_str_intern", referenced from:
+      _struct_field_initialize in StructLayout.o
+  "_rb_str_new", referenced from:
+      _memory_get_string in AbstractMemory.o
+      _memory_get_bytes in AbstractMemory.o
+      _rbffi_longdouble_new in LongDouble.o
+  "_rb_str_new_cstr", referenced from:
+      _memory_get_array_of_string in AbstractMemory.o
+      _memory_op_get_strptr in AbstractMemory.o
+      _buffer_inspect in Buffer.o
+      _library_dlerror in DynamicLibrary.o
+      _symbol_inspect in DynamicLibrary.o
+      _invoke_callback in Function.o
+      _ptr_inspect in Pointer.o
+      ...
+  "_rb_str_new_static", referenced from:
+      _library_initialize in DynamicLibrary.o
+      _function_init in Function.o
+      _async_cb_event in Function.o
+      _rbffi_num2longdouble in LongDouble.o
+  "_rb_str_to_str", referenced from:
+      _ptr_free.cold.1 in Pointer.o
+  "_rb_string_value", referenced from:
+      _memptr_s_from_string in MemoryPointer.o
+  "_rb_string_value_cstr", referenced from:
+      _rbffi_SetupCallParams in Call.o
+      _library_initialize in DynamicLibrary.o
+      _library_dlsym in DynamicLibrary.o
+      _symbol_inspect in DynamicLibrary.o
+      _function_attach in Function.o
+      _struct_field in Struct.o
+  "_rb_string_value_ptr", referenced from:
+      _getPointer in Call.o
+  "_rb_sym2id", referenced from:
+      _buffer_order in Buffer.o
+      _ptr_order in Pointer.o
+  "_rb_thread_call_with_gvl", referenced from:
+      _callback_invoke in Function.o
+  "_rb_thread_call_without_gvl", referenced from:
+      _rbffi_do_blocking_call in Call.o
+      _async_cb_event in Function.o
+  "_rb_thread_create", referenced from:
+      _function_init in Function.o
+      _async_cb_event in Function.o
+  "_rb_uint2big", referenced from:
+      _memory_get_ulong in AbstractMemory.o
+      _memory_read_ulong in AbstractMemory.o
+      _memory_get_array_of_ulong in AbstractMemory.o
+      _memory_aref in AbstractMemory.o
+      _memory_op_get_ulong in AbstractMemory.o
+      _invoke_callback in Function.o
+      _rbffi_NativeValue_ToRuby in Types.o
+      ...
+  "_rb_ull2inum", referenced from:
+      _memory_get_uint64 in AbstractMemory.o
+      _memory_read_uint64 in AbstractMemory.o
+      _memory_get_array_of_uint64 in AbstractMemory.o
+      _memory_op_get_uint64 in AbstractMemory.o
+      _invoke_callback in Function.o
+      _rbffi_Pointer_Init in Pointer.o
+      _ptr_address in Pointer.o
+      ...
+  "_rb_undef_method", referenced from:
+      _rbffi_DynamicLibrary_Init in DynamicLibrary.o
+      _rbffi_Type_Init in Type.o
+  "_rb_warn", referenced from:
+      _function_init in Function.o
+      _ptr_free.cold.1 in Pointer.o
+  "_rb_yield", referenced from:
+      _buffer_initialize in Buffer.o
+      _memptr_initialize in MemoryPointer.o
+      _inline_array_each in Struct.o
+  "_ruby_native_thread_p", referenced from:
+      _callback_invoke in Function.o
+  "_ruby_snprintf", referenced from:
+      _buffer_inspect in Buffer.o
+      _rbffi_Closure_Alloc in ClosurePool.o
+      _library_dlerror in DynamicLibrary.o
+      _library_initialize in DynamicLibrary.o
+      _symbol_inspect in DynamicLibrary.o
+      _function_attach in Function.o
+      _callback_prep in Function.o
+      ...
+  "_ruby_thread_has_gvl_p", referenced from:
+      _callback_invoke in Function.o
+  "_ruby_xcalloc", referenced from:
+      _array_type_s_allocate in ArrayType.o
+      _array_type_initialize in ArrayType.o
+      _rbffi_ClosurePool_New in ClosurePool.o
+      _fntype_initialize in FunctionInfo.o
+      _rbffi_save_errno in LastError.o
+      _get_last_error in LastError.o
+      _rbffi_MethodHandle_Alloc in MethodHandle.o
+      ...
+  "_ruby_xfree", referenced from:
+      _array_type_free in ArrayType.o
+      _buffer_initialize_copy in Buffer.o
+      _buffer_release in Buffer.o
+      _buffer_free in Buffer.o
+      _cleanup_closure_pool in ClosurePool.o
+      _rbffi_ClosurePool_Free in ClosurePool.o
+      _rbffi_Closure_Free in ClosurePool.o
+      ...
+  "_ruby_xmalloc", referenced from:
+      _buffer_initialize in Buffer.o
+      _buffer_initialize_copy in Buffer.o
+      _rbffi_MemoryPointer_NewInstance in MemoryPointer.o
+      _memptr_initialize in MemoryPointer.o
+      _ptr_initialize_copy in Pointer.o
+  "_ruby_xmalloc2", referenced from:
+      _struct_initialize_copy in Struct.o
+      _struct_aset in Struct.o
+  "_ruby_xrealloc2", referenced from:
+      _fntype_initialize in FunctionInfo.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [ffi_c.bundle] Error 1
+
+make failed, exit code 2

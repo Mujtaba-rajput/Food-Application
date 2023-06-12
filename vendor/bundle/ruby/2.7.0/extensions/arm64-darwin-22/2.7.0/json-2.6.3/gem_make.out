@@ -1,0 +1,293 @@
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+/Users/mac1/.rvm/rubies/ruby-2.7.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+make DESTDIR\= sitearchdir\=./.gem.20230322-27433-1xxrnov sitelibdir\=./.gem.20230322-27433-1xxrnov clean
+
+current directory: /Users/mac1/projects/FridayWLAPizza/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json/ext/generator
+make DESTDIR\= sitearchdir\=./.gem.20230322-27433-1xxrnov sitelibdir\=./.gem.20230322-27433-1xxrnov
+compiling generator.c
+linking shared-object json/ext/generator.bundle
+ld: warning: ignoring file /Users/mac1/.rvm/rubies/ruby-2.7.6/lib/libruby.2.7.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_rb_ary_entry", referenced from:
+      _cState_to_h in generator.o
+      _generate_json_array in generator.o
+  "_rb_attr_get", referenced from:
+      _cState_aref in generator.o
+  "_rb_cArray", referenced from:
+      _generate_json in generator.o
+  "_rb_cFalseClass", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cFloat", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cHash", referenced from:
+      _cState_from_state_s in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_cInteger", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cNilClass", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cObject", referenced from:
+      _Init_generator in generator.o
+  "_rb_cString", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cSymbol", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_cTrueClass", referenced from:
+      _generate_json in generator.o
+      _json_object_i in generator.o
+  "_rb_check_convert_type", referenced from:
+      _cState_configure in generator.o
+  "_rb_check_type", referenced from:
+      _cState_indent_set in generator.o
+      _cState_space_set in generator.o
+      _cState_space_before_set in generator.o
+      _cState_object_nl_set in generator.o
+      _cState_array_nl_set in generator.o
+      _cState_max_nesting_set in generator.o
+      _cState_depth_set in generator.o
+      ...
+  "_rb_check_typeddata", referenced from:
+      _cState_initialize in generator.o
+      _cState_init_copy in generator.o
+      _cState_indent in generator.o
+      _cState_indent_set in generator.o
+      _cState_space in generator.o
+      _cState_space_set in generator.o
+      _cState_space_before in generator.o
+      ...
+  "_rb_class_name", referenced from:
+      _mString_to_json_raw_object in generator.o
+  "_rb_class_new_instance", referenced from:
+      _cState_from_state_s in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_convert_type", referenced from:
+      _cState_configure in generator.o
+  "_rb_data_typed_object_zalloc", referenced from:
+      _cState_s_allocate in generator.o
+  "_rb_define_alias", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_alloc_func", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_class_under", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_method", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_module", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_module_under", referenced from:
+      _Init_generator in generator.o
+  "_rb_define_singleton_method", referenced from:
+      _Init_generator in generator.o
+  "_rb_eArgError", referenced from:
+      _cState_init_copy in generator.o
+  "_rb_empty_keyword_given_p", referenced from:
+      _cState_initialize in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_enc_associate", referenced from:
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      _mTrueClass_to_json in generator.o
+      _mFalseClass_to_json in generator.o
+      ...
+  "_rb_enc_get", referenced from:
+      _generate_json_string in generator.o
+  "_rb_enc_str_asciionly_p", referenced from:
+      _generate_json_string in generator.o
+  "_rb_error_arity", referenced from:
+      _cState_initialize in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_float_value", referenced from:
+      _generate_json_float in generator.o
+  "_rb_funcallv", referenced from:
+      _cState_from_state_s in generator.o
+      _cState_configure in generator.o
+      _cState_to_h in generator.o
+      _cState_aref in generator.o
+      _cState_aset in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      ...
+  "_rb_gc_register_mark_object", referenced from:
+      _Init_generator in generator.o
+  "_rb_hash_aref", referenced from:
+      _cState_configure in generator.o
+      _mString_Extend_json_create in generator.o
+  "_rb_hash_aset", referenced from:
+      _cState_to_h in generator.o
+      _mString_to_json_raw_object in generator.o
+  "_rb_hash_foreach", referenced from:
+      _generate_json_object in generator.o
+  "_rb_hash_new", referenced from:
+      _cState_to_h in generator.o
+      _mString_to_json_raw_object in generator.o
+  "_rb_id2str", referenced from:
+      _json_object_i in generator.o
+  "_rb_id2sym", referenced from:
+      _cState_configure in generator.o
+      _cState_to_h in generator.o
+  "_rb_intern", referenced from:
+      _Init_generator in generator.o
+  "_rb_intern2", referenced from:
+      _cState_to_h in generator.o
+  "_rb_iv_get", referenced from:
+      _cState_to_h in generator.o
+  "_rb_ivar_set", referenced from:
+      _cState_aset in generator.o
+  "_rb_keyword_given_p", referenced from:
+      _cState_initialize in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_obj_class", referenced from:
+      _mString_to_json_raw_object in generator.o
+  "_rb_obj_is_kind_of", referenced from:
+      _cState_from_state_s in generator.o
+      _mObject_to_json in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      ...
+  "_rb_path2class", referenced from:
+      _Init_generator in generator.o
+      _generate_json_string in generator.o
+  "_rb_raise", referenced from:
+      _cState_init_copy in generator.o
+      _generate_json_object in generator.o
+      _generate_json_array in generator.o
+      _generate_json_string in generator.o
+      _generate_json_float in generator.o
+  "_rb_require", referenced from:
+      _Init_generator in generator.o
+  "_rb_respond_to", referenced from:
+      _generate_json in generator.o
+  "_rb_str_cat", referenced from:
+      _cState_aset in generator.o
+  "_rb_str_concat", referenced from:
+      _cState_aref in generator.o
+      _cState_aset in generator.o
+  "_rb_str_dup", referenced from:
+      _cState_aset in generator.o
+  "_rb_str_export_to_enc", referenced from:
+      _generate_json_string in generator.o
+  "_rb_str_intern", referenced from:
+      _cState_to_h in generator.o
+      _cState_aref in generator.o
+      _cState_aset in generator.o
+  "_rb_str_new", referenced from:
+      _cState_indent in generator.o
+      _cState_space in generator.o
+      _cState_space_before in generator.o
+      _cState_object_nl in generator.o
+      _cState_array_nl in generator.o
+      _cState_to_h in generator.o
+      _mHash_to_json in generator.o
+      ...
+  "_rb_str_new_static", referenced from:
+      _cState_indent in generator.o
+      _cState_space in generator.o
+      _cState_space_before in generator.o
+      _cState_object_nl in generator.o
+      _cState_array_nl in generator.o
+      _cState_aref in generator.o
+      _cState_aset in generator.o
+      ...
+  "_rb_str_substr", referenced from:
+      _cState_to_h in generator.o
+  "_rb_string_value_cstr", referenced from:
+      _cState_to_h in generator.o
+  "_rb_string_value_ptr", referenced from:
+      _mInteger_to_json in generator.o
+      _generate_json in generator.o
+      _generate_json_float in generator.o
+  "_rb_sym2id", referenced from:
+      _cState_aref in generator.o
+      _cState_aset in generator.o
+      _json_object_i in generator.o
+  "_rb_usascii_encoding", referenced from:
+      _generate_json_string in generator.o
+  "_rb_utf8_encoding", referenced from:
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      _mInteger_to_json in generator.o
+      _mFloat_to_json in generator.o
+      _mString_to_json in generator.o
+      _mTrueClass_to_json in generator.o
+      _mFalseClass_to_json in generator.o
+      ...
+  "_ruby_xfree", referenced from:
+      _cState_indent_set in generator.o
+      _cState_space_set in generator.o
+      _cState_space_before_set in generator.o
+      _cState_object_nl_set in generator.o
+      _cState_array_nl_set in generator.o
+      _mHash_to_json in generator.o
+      _mArray_to_json in generator.o
+      ...
+  "_ruby_xmalloc", referenced from:
+      _fbuffer_dup in generator.o
+      _cState_prepare_buffer in generator.o
+  "_ruby_xmalloc2", referenced from:
+      _cState_init_copy in generator.o
+      _cState_indent_set in generator.o
+      _cState_space_set in generator.o
+      _cState_space_before_set in generator.o
+      _cState_object_nl_set in generator.o
+      _cState_array_nl_set in generator.o
+      _cState_configure in generator.o
+      ...
+  "_ruby_xrealloc2", referenced from:
+      _mInteger_to_json in generator.o
+      _mTrueClass_to_json in generator.o
+      _mFalseClass_to_json in generator.o
+      _mNilClass_to_json in generator.o
+      _fbuffer_dup in generator.o
+      _cState_prepare_buffer in generator.o
+      _generate_json in generator.o
+      ...
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [generator.bundle] Error 1
+
+make failed, exit code 2
